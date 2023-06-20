@@ -1,0 +1,17 @@
+-- Restringir o período do clock para 1ns acima do menor periodo que faça o circuito funcionar na frequência máxima. Salvar SDC, acrescentar ao projeto e recompilar o projeto
+
+Flow Summary
+   Total logic elements
+      Total combinational functions: 48
+      Dedicated logic registers: 16
+
+TimingQuest Timing Analyzer (DEPOIS DE CRIAR SDC E ATENDER REQUISITOS TEMPORAIS)
+   Slow Model
+      FMax Summary
+         Restricted Fmax: 250.0MHz
+      Setup Summary
+         Slack: -1.954
+      Datasheet Report
+         Minimum Clock to Output Times
+            DataPort: output[15]
+            Rise: 6.643
