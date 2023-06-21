@@ -1,0 +1,21 @@
+ANALYSIS & SYNTHESIS
+  State Machines
+    currentState.Idle=0	0	0	0	0
+    currentState.s1a=0	0	0	0   0
+    currentState.s0a=0	0	0	0	0
+    currentState.s1b=0	0	0	0	0
+    currentState.s0b=0	0	0	0	0
+  Post-Synthesis Netlist Statistics for Top Partition
+    boundary_port=50
+    cycloneiii_ff=0
+    cycloneiii_lcell_comb=0
+    Max LUT depth=200
+
+TIMING ANAZYZER (DEPOIS DE CRIAR SDC E ATENDER REQUISITOS TEMPORAIS)
+  Clocks
+    Frequency=1000.0 MHz
+  Slow 1200mV 85C Model
+    Setup Summary
+      Slack=0.009
+    Hold Summary
+      Slack=0.000
